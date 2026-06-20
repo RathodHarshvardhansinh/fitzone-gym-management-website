@@ -1,0 +1,388 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="FitZone - Premium fitness center with expert trainers, modern equipment, and personalized fitness plans. Transform Your Body, Transform Your Life."
+    />
+    <meta name="keywords" content="gym, fitness, personal training, weight loss, strength training, BMI calculator, FitZone" />
+    <meta name="author" content="FitZone" />
+    <meta property="og:title" content="FitZone - Transform Your Body, Transform Your Life" />
+    <meta property="og:description" content="Professional trainers, modern equipment, and personalized fitness plans." />
+    <meta property="og:type" content="website" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&family=Oswald:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" />
+    <link rel="stylesheet" href="./src/styles.css" />
+    <title>FitZone - Transform Your Body, Transform Your Life</title>
+  </head>
+  <body>
+    <!-- Loading Screen -->
+    <div id="loader" class="loader">
+      <div class="loader-ring"></div>
+      <span class="loader-text">FITZONE</span>
+    </div>
+
+    <!-- Navbar -->
+    <header id="navbar" class="navbar">
+      <nav class="nav-container">
+        <a href="#home" class="logo">
+          <i class="fa-solid fa-dumbbell"></i>
+          <span>Fit<span class="logo-accent">Zone</span></span>
+        </a>
+
+        <ul class="nav-links" id="navLinks">
+          <li><a href="#home" class="nav-link">Home</a></li>
+          <li><a href="#about" class="nav-link">About</a></li>
+          <li><a href="#services" class="nav-link">Services</a></li>
+          <li><a href="#plans" class="nav-link">Plans</a></li>
+          <li><a href="#bmi" class="nav-link">BMI</a></li>
+          <li><a href="#faq" class="nav-link">FAQ</a></li>
+          <li><a href="#contact" class="nav-link">Contact</a></li>
+        </ul>
+
+        <div class="nav-actions">
+          <button id="themeToggle" class="theme-toggle" aria-label="Toggle dark mode">
+            <i class="fa-solid fa-moon"></i>
+          </button>
+          <a href="#plans" class="btn btn-primary nav-cta">Join Now</a>
+          <button id="hamburger" class="hamburger" aria-label="Open menu">
+            <span></span><span></span><span></span>
+          </button>
+        </div>
+      </nav>
+    </header>
+
+    <main>
+      <!-- Hero -->
+      <section id="home" class="hero">
+        <div class="hero-overlay"></div>
+        <div class="hero-content">
+          <span class="badge"><span class="dot"></span> Premium Fitness Experience</span>
+          <h1 class="hero-title">Transform Your Body,<br /><span class="text-accent">Transform Your Life</span></h1>
+          <p class="hero-subtitle">
+            Professional trainers, modern equipment, and personalized fitness plans.
+          </p>
+          <div class="hero-buttons">
+            <a href="#plans" class="btn btn-primary">Join Now</a>
+            <a href="#plans" class="btn btn-outline">Explore Plans</a>
+          </div>
+          <div class="hero-stats">
+            <div class="stat"><span class="stat-num" data-target="500">0</span><span class="stat-plus">+</span><span class="stat-label">Members</span></div>
+            <div class="stat"><span class="stat-num" data-target="20">0</span><span class="stat-plus">+</span><span class="stat-label">Trainers</span></div>
+            <div class="stat"><span class="stat-num" data-target="10">0</span><span class="stat-plus"></span><span class="stat-label">Years</span></div>
+            <div class="stat"><span class="stat-num" data-target="95">0</span><span class="stat-plus">%</span><span class="stat-label">Success</span></div>
+          </div>
+        </div>
+        <a href="#about" class="scroll-down" aria-label="Scroll down">
+          <span>Scroll</span>
+          <i class="fa-solid fa-chevron-down"></i>
+        </a>
+      </section>
+
+      <!-- About -->
+      <section id="about" class="section about">
+        <div class="container">
+          <div class="section-head reveal">
+            <span class="section-label">About FitZone</span>
+            <h2 class="section-title">Why Choose <span class="text-accent">FitZone?</span></h2>
+          </div>
+          <p class="about-desc reveal">
+            FitZone is a modern fitness center dedicated to helping individuals achieve their fitness
+            goals through expert coaching, advanced equipment, and customized training programs.
+          </p>
+          <div class="feature-grid">
+            <div class="feature-card reveal">
+              <div class="feature-icon"><i class="fa-solid fa-user-check"></i></div>
+              <h3>Expert Trainers</h3>
+              <p>Certified professionals with years of experience to guide your journey.</p>
+            </div>
+            <div class="feature-card reveal">
+              <div class="feature-icon"><i class="fa-solid fa-dumbbell"></i></div>
+              <h3>Modern Equipment</h3>
+              <p>Latest fitness machines and workout technology for every muscle group.</p>
+            </div>
+            <div class="feature-card reveal">
+              <div class="feature-icon"><i class="fa-solid fa-wallet"></i></div>
+              <h3>Flexible Memberships</h3>
+              <p>Affordable plans for every fitness level and budget.</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Services -->
+      <section id="services" class="section services">
+        <div class="container">
+          <div class="section-head center reveal">
+            <span class="section-label">What We Offer</span>
+            <h2 class="section-title">Our <span class="text-accent">Services</span></h2>
+          </div>
+          <div class="service-grid">
+            <div class="service-card reveal">
+              <div class="service-icon"><i class="fa-solid fa-user-tie"></i></div>
+              <h3>Personal Training</h3>
+              <p>One-on-one coaching tailored to your body and goals.</p>
+            </div>
+            <div class="service-card reveal">
+              <div class="service-icon"><i class="fa-solid fa-fire-flame-curved"></i></div>
+              <h3>Weight Loss Programs</h3>
+              <p>Science-backed plans to shed fat and keep it off.</p>
+            </div>
+            <div class="service-card reveal">
+              <div class="service-icon"><i class="fa-solid fa-dumbbell"></i></div>
+              <h3>Strength Training</h3>
+              <p>Build power and muscle with proven lifting methods.</p>
+            </div>
+            <div class="service-card reveal">
+              <div class="service-icon"><i class="fa-solid fa-heart-pulse"></i></div>
+              <h3>Cardio Fitness</h3>
+              <p>Boost endurance and heart health with dynamic routines.</p>
+            </div>
+            <div class="service-card reveal">
+              <div class="service-icon"><i class="fa-solid fa-apple-whole"></i></div>
+              <h3>Nutrition Guidance</h3>
+              <p>Custom meal plans fueling your transformation.</p>
+            </div>
+            <div class="service-card reveal">
+              <div class="service-icon"><i class="fa-solid fa-users"></i></div>
+              <h3>Group Classes</h3>
+              <p>High-energy group sessions that keep you motivated.</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Plans -->
+      <section id="plans" class="section plans">
+        <div class="container">
+          <div class="section-head center reveal">
+            <span class="section-label">Membership</span>
+            <h2 class="section-title">Choose Your <span class="text-accent">Plan</span></h2>
+          </div>
+          <div class="plan-grid">
+            <div class="plan-card reveal">
+              <h3>Basic Plan</h3>
+              <div class="plan-price"><span class="currency">₹</span>999<span class="per">/month</span></div>
+              <ul class="plan-features">
+                <li><i class="fa-solid fa-check"></i> Gym Access</li>
+                <li><i class="fa-solid fa-check"></i> Locker Access</li>
+                <li><i class="fa-solid fa-check"></i> Basic Support</li>
+              </ul>
+              <a href="#contact" class="btn btn-outline-plan">Join Now</a>
+            </div>
+            <div class="plan-card featured reveal">
+              <span class="plan-badge"><i class="fa-solid fa-star"></i> Most Popular</span>
+              <h3>Premium Plan</h3>
+              <div class="plan-price"><span class="currency">₹</span>1999<span class="per">/month</span></div>
+              <ul class="plan-features">
+                <li><i class="fa-solid fa-check"></i> Gym Access</li>
+                <li><i class="fa-solid fa-check"></i> Trainer Guidance</li>
+                <li><i class="fa-solid fa-check"></i> Diet Plan</li>
+                <li><i class="fa-solid fa-check"></i> Fitness Tracking</li>
+              </ul>
+              <a href="#contact" class="btn btn-primary">Join Now</a>
+            </div>
+            <div class="plan-card reveal">
+              <h3>Elite Plan</h3>
+              <div class="plan-price"><span class="currency">₹</span>2999<span class="per">/month</span></div>
+              <ul class="plan-features">
+                <li><i class="fa-solid fa-check"></i> Personal Trainer</li>
+                <li><i class="fa-solid fa-check"></i> Custom Diet Plan</li>
+                <li><i class="fa-solid fa-check"></i> Priority Support</li>
+                <li><i class="fa-solid fa-check"></i> Advanced Tracking</li>
+              </ul>
+              <a href="#contact" class="btn btn-outline-plan">Join Now</a>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- BMI -->
+      <section id="bmi" class="section bmi">
+        <div class="container bmi-grid">
+          <div class="bmi-info reveal">
+            <span class="section-label">Health Check</span>
+            <h2 class="section-title">BMI <span class="text-accent">Calculator</span></h2>
+            <p class="bmi-desc">
+              Know your Body Mass Index to understand where you stand and what goals to chase.
+            </p>
+            <div class="bmi-categories" id="bmiCategories">
+              <div class="bmi-cat" data-cat="Underweight"><span class="cat-dot blue"></span> Underweight <small>&lt; 18.5</small></div>
+              <div class="bmi-cat" data-cat="Normal"><span class="cat-dot green"></span> Normal <small>18.5 – 24.9</small></div>
+              <div class="bmi-cat" data-cat="Overweight"><span class="cat-dot amber"></span> Overweight <small>25 – 29.9</small></div>
+              <div class="bmi-cat" data-cat="Obese"><span class="cat-dot red"></span> Obese <small>&ge; 30</small></div>
+            </div>
+          </div>
+          <div class="bmi-card glass reveal">
+            <div class="bmi-card-head"><i class="fa-solid fa-calculator"></i><h3>Calculate Your BMI</h3></div>
+            <div class="form-group">
+              <label for="height">Height (cm)</label>
+              <input type="number" id="height" placeholder="e.g. 175" />
+            </div>
+            <div class="form-group">
+              <label for="weight">Weight (kg)</label>
+              <input type="number" id="weight" placeholder="e.g. 70" />
+            </div>
+            <p id="bmiError" class="error-text"></p>
+            <button id="calcBmi" class="btn btn-primary w-full"><i class="fa-solid fa-calculator"></i> Calculate BMI</button>
+            <div id="bmiResult" class="bmi-result" hidden>
+              <div class="bmi-result-label"><i class="fa-solid fa-wave-square"></i> Your BMI</div>
+              <div class="bmi-result-value"><span id="bmiValue"></span><span id="bmiCategory" class="bmi-result-cat"></span></div>
+              <div class="bmi-bar"><div id="bmiBarFill" class="bmi-bar-fill"></div></div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- FAQ -->
+      <section id="faq" class="section faq">
+        <div class="container container-narrow">
+          <div class="section-head center reveal">
+            <span class="section-label">Got Questions?</span>
+            <h2 class="section-title">Frequently Asked <span class="text-accent">Questions</span></h2>
+          </div>
+          <div class="faq-list">
+            <div class="faq-item reveal">
+              <button class="faq-question">What are your gym timings? <i class="fa-solid fa-plus faq-icon"></i></button>
+              <div class="faq-answer"><p>FitZone is open Monday to Saturday from 5:00 AM to 11:00 PM and Sunday from 7:00 AM to 9:00 PM.</p></div>
+            </div>
+            <div class="faq-item reveal">
+              <button class="faq-question">Do you provide personal trainers? <i class="fa-solid fa-plus faq-icon"></i></button>
+              <div class="faq-answer"><p>Yes! Our certified personal trainers are available for one-on-one sessions included in select plans.</p></div>
+            </div>
+            <div class="faq-item reveal">
+              <button class="faq-question">Is diet consultation available? <i class="fa-solid fa-plus faq-icon"></i></button>
+              <div class="faq-answer"><p>Absolutely. We offer dedicated nutrition guidance and custom meal plans for members.</p></div>
+            </div>
+            <div class="faq-item reveal">
+              <button class="faq-question">Can I cancel membership? <i class="fa-solid fa-plus faq-icon"></i></button>
+              <div class="faq-answer"><p>Yes, you can cancel anytime with 30 days notice. No hidden fees.</p></div>
+            </div>
+            <div class="faq-item reveal">
+              <button class="faq-question">Do you offer trial sessions? <i class="fa-solid fa-plus faq-icon"></i></button>
+              <div class="faq-answer"><p>Yes! Your first session is always free. Contact us to book a complimentary trial.</p></div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Contact -->
+      <section id="contact" class="section contact">
+        <div class="container">
+          <div class="section-head center reveal">
+            <span class="section-label">Get In Touch</span>
+            <h2 class="section-title">Contact <span class="text-accent">Us</span></h2>
+          </div>
+          <div class="contact-grid">
+            <div class="contact-info reveal">
+              <div class="info-item">
+                <div class="info-icon"><i class="fa-solid fa-location-dot"></i></div>
+                <div><div class="info-label">Address</div><div class="info-value">123 Fitness Street, Mumbai, India 400001</div></div>
+              </div>
+              <div class="info-item">
+                <div class="info-icon"><i class="fa-solid fa-phone"></i></div>
+                <div><div class="info-label">Phone</div><div class="info-value">+91 98765 43210</div></div>
+              </div>
+              <div class="info-item">
+                <div class="info-icon"><i class="fa-solid fa-envelope"></i></div>
+                <div><div class="info-label">Email</div><div class="info-value">hello@fitzone.com</div></div>
+              </div>
+              <div class="map">
+                <iframe
+                  title="FitZone location"
+                  src="https://www.openstreetmap.org/export/embed.html?bbox=72.8%2C19.05%2C72.9%2C19.12&layer=mapnik"
+                  loading="lazy"
+                ></iframe>
+              </div>
+            </div>
+            <form id="contactForm" class="contact-form glass reveal" novalidate>
+              <div class="form-group">
+                <label for="name">Name</label>
+                <input type="text" id="name" placeholder="John Doe" />
+                <p class="error-text" data-error="name"></p>
+              </div>
+              <div class="form-group">
+                <label for="email">Email</label>
+                <input type="email" id="email" placeholder="john@example.com" />
+                <p class="error-text" data-error="email"></p>
+              </div>
+              <div class="form-group">
+                <label for="phone">Phone</label>
+                <input type="tel" id="phone" placeholder="+91 98765 43210" />
+                <p class="error-text" data-error="phone"></p>
+              </div>
+              <div class="form-group">
+                <label for="message">Message</label>
+                <textarea id="message" rows="4" placeholder="Tell us about your fitness goals..."></textarea>
+                <p class="error-text" data-error="message"></p>
+              </div>
+              <button type="submit" class="btn btn-primary w-full"><i class="fa-solid fa-paper-plane"></i> Send Message</button>
+              <div id="successMsg" class="success-msg" hidden><i class="fa-solid fa-circle-check"></i> Thank you! Your message has been sent successfully.</div>
+            </form>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+      <div class="container footer-grid">
+        <div class="footer-col">
+          <a href="#home" class="logo footer-logo">
+            <i class="fa-solid fa-dumbbell"></i>
+            <span>Fit<span class="logo-accent">Zone</span></span>
+          </a>
+          <p class="footer-tag">Transform your body, transform your life. Premium fitness for everyone.</p>
+          <div class="footer-socials">
+            <a href="#" aria-label="Instagram"><i class="fa-brands fa-instagram"></i></a>
+            <a href="#" aria-label="Twitter"><i class="fa-brands fa-x-twitter"></i></a>
+            <a href="#" aria-label="Facebook"><i class="fa-brands fa-facebook-f"></i></a>
+            <a href="#" aria-label="YouTube"><i class="fa-brands fa-youtube"></i></a>
+          </div>
+        </div>
+        <div class="footer-col">
+          <h4>Quick Links</h4>
+          <ul class="footer-links">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#plans">Plans</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h4>Contact</h4>
+          <ul class="footer-contact">
+            <li><i class="fa-solid fa-location-dot"></i> 123 Fitness Street, Mumbai, India 400001</li>
+            <li><i class="fa-solid fa-phone"></i> +91 98765 43210</li>
+            <li><i class="fa-solid fa-envelope"></i> hello@fitzone.com</li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h4>Newsletter</h4>
+          <p class="footer-tag">Get fitness tips and offers in your inbox.</p>
+          <form class="newsletter" onsubmit="return false">
+            <input type="email" placeholder="Your email" />
+            <button class="btn btn-primary">Join</button>
+          </form>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>&copy; <span id="year"></span> FitZone. All rights reserved.</p>
+        <p>Designed with passion for fitness.</p>
+      </div>
+    </footer>
+
+    <!-- Back to top -->
+    <button id="backToTop" class="back-to-top" aria-label="Back to top"><i class="fa-solid fa-arrow-up"></i></button>
+
+    <script type="module" src="./src/script.js"></script>
+  </body>
+</html>
