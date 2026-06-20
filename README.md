@@ -40,11 +40,11 @@ The objective of this project is to demonstrate front-end development skills, re
 
 ## Live Demo
 
-
+https://fitzone-gym-management-website-gd7k.vercel.app/
 
 ## GitHub Repository
 
-
+https://github.com/RathodHarshvardhansinh/fitzone-gym-management-website.git
 
 ## Author
 
