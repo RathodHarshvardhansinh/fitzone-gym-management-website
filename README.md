@@ -2,7 +2,7 @@
 
 ## Project Overview
 
-FitZone is a modern and fully responsive Gym Management & Fitness Website developed as the Final Project for the Virelixa Full Stack Web Development Internship.
+FitZone is a modern and fully responsive Gym Management & Fitness Website.
 
 The website is designed to provide users with information about fitness services, membership plans, trainers, and health tools through an attractive and user-friendly interface.
 
@@ -36,7 +36,7 @@ The website is designed to provide users with information about fitness services
 
 ## Project Objective
 
-The objective of this project is to demonstrate front-end development skills, responsive design principles, and JavaScript functionality learned during the Virelixa Full Stack Web Development Internship.
+The objective of this project is to demonstrate front-end development skills, responsive design principles, and JavaScript functionality.
 
 ## Live Demo
 
@@ -50,6 +50,3 @@ https://github.com/RathodHarshvardhansinh/fitzone-gym-management-website.git
 
 Harshvardhansinh Rathod
 
-## Internship
-
-Virelixa Full Stack Web Development Internship 2026
